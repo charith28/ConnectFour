@@ -83,6 +83,7 @@ public class ConnectFourGUI extends JFrame implements ActionListener {
 				game.newGame();
 				setButtonsState(true);
 				refreshBoard(game.getBoard());
+				directionsLabel.setText("Player " + game.getCurrentPlayer()+ " goes first.");
 				topLabel.setText("Click any button in a column to place your disk in that column.");
 			}
 			if(timer.isRunning())

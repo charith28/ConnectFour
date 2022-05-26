@@ -96,7 +96,6 @@ public class ConnectFour implements BoardGame{
         return board;
     }
 
-    @Override
     public int getCurrentPlayer() {
         return currentPlayer;
     }
